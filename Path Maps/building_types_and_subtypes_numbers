@@ -1,0 +1,40 @@
+> :lua for i,v in ipairs(df.furnace_type) do print(i, v) end
+
+-1 NONE
+0 WoodFurnace
+1 Smelter
+2 GlassFurnace
+3 Kiln
+4 MagmaSmelter
+5 MagmaGlassFurnace
+6 MagmaKiln
+7 Custom
+
+> :lua for i,v in ipairs(df.workshop_type) do print(i, v) end
+
+-1 NONE
+0 Carpenters
+1 Farmers
+2 Masons
+3 Craftsdwarfs
+4 Jewelers
+5 MetalsmithsForge
+6 MagmaForge
+7 Bowyers
+8 Mechanics
+9 Siege
+10 Butchers
+11 Leatherworks
+12 Tanners
+13 Clothiers
+14 Fishery
+15 Still
+16 Loom
+17 Quern
+18 Kennels
+19 Kitchen
+20 Ashery
+21 Dyers
+22 Millstone
+23 Custom
+24 Tool

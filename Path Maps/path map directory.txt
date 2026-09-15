@@ -1,0 +1,124 @@
+    Directory: C:\Users\grung\OneDrive\Desktop\Refinish Metal Editing Folder\REFINISH STEEL 3\Path Maps
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-04-04  10:32 AM          22188 basic_inorganic_object_path_map.txt
+-a----        2026-04-04   2:29 PM           2839 building_types_and_subtypes_and_skills_numbers.txt
+-a----        2026-04-04   2:22 PM            565 building_types_and_subtypes_numbers
+-a----        2026-04-04   2:24 PM            565 building_types_and_subtypes_numbers.txt
+-a----        2026-04-04  10:42 AM          31813 iron_inorganic_path_map.txt
+-a----        2026-04-04   1:33 PM          29328 making_metal_ite_inorganic_path_map.txt
+-a----        2026-04-04  10:41 AM          32643 making_metal_orichalcum_dirty_object_path_map.txt
+-a----        2026-04-03  12:25 AM          31814 modded_cobalt_glass_inorganic_path_map.txt
+-a----        2026-04-03   1:28 AM          68689 modded_make_cobalt_glass_reaction_path_map.txt
+-a----        2026-04-04  11:24 AM          29133 plaster_inorganic_path_map.txt
+-a----        2026-04-05  12:37 AM          21600 vanilla_ash_builtin_path_map.txt
+-a----        2026-04-03   1:56 AM          37563 vanilla_brass_making_reaction_path_map.txt
+-a----        2026-04-03  12:09 AM          29929 vanilla_clear_diamond_inorganic_path_map.txt
+-a----        2026-04-05  12:38 AM          20871 vanilla_coal_builtin_path_map.txt
+-a----        2026-04-06  11:00 AM         273890 vanilla_collect_sand_job_path_map.txt
+-a----        2026-04-03  12:07 AM          29284 vanilla_diorite_inorganic_path_map.txt
+-a----        2026-04-04  12:28 PM          32567 vanilla_divine_inorganic_path_map.txt
+-a----        2026-04-03  12:16 AM          32930 vanilla_fire_clay_inorganic_path_map.txt
+-a----        2026-04-03   4:27 PM         972154 vanilla_global-world-entities_path_map.txt
+-a----        2026-04-03  12:06 AM          29283 vanilla_granite_inorganic_path_map.txt
+-a----        2026-04-05  12:30 AM          22879 vanilla_green_glass_builtin_path_map.txt
+-a----        2026-04-06  12:50 PM         108587 vanilla_job_maybe_fillpond_path_map.txt
+-a----        2026-04-03  12:17 AM          33476 vanilla_kaolinite_inorganic_path_map.txt
+-a----        2026-04-03   1:07 AM          22611 vanilla_lignite_to_coke_reaction_path_map.txt
+-a----        2026-04-03  12:04 AM          30109 vanilla_limestone_inorganic_path_map.txt
+-a----        2026-04-05  12:35 AM          20649 vanilla_lye_builtin_path_map.txt
+-a----        2026-04-03  12:18 AM          31056 vanilla_magnetite_inorganic_path_map.txt
+-a----        2026-04-03   1:05 AM          22425 vanilla_make_clay_bricks_reaction_path_map.txt
+-a----        2026-04-03   1:10 AM          22424 vanilla_make_clay_jug_reaction_path_map.txt
+-a----        2026-04-04   4:43 PM          38015 vanilla_make_quicklime_reaction_path_map.txt
+-a----        2026-04-03   1:08 AM          36820 vanilla_make_sharp_rock_reaction_path_map.txt
+-a----        2026-04-03   2:17 AM          52442 vanilla_make_soap_from_tallow_reaction_path_map.txt
+-a----        2026-04-03  12:03 AM          29947 vanilla_marble_inorganic_path_map.txt
+-a----        2026-04-04  12:29 PM          31649 vanilla_mythical_remnant_path_map.txt
+-a----        2026-04-04  12:31 PM         127004 vanilla_mythical_substance_path_map.txt
+-a----        2026-04-03  12:21 AM          31384 vanilla_obsidian_inorganic_path_map.txt
+-a----        2026-04-04   4:42 PM          28865 vanilla_quicklime_inorganic_path_map.txt
+-a----        2026-04-06  10:43 AM          29127 vanilla_sand_tan_inorganic_path_map.txt
+-a----        2026-04-03  12:20 AM          31211 vanilla_tetrahedrite_inorganic_path_map.txt
+-a----        2026-04-05  12:37 AM          21115 vanilla_water_builtin_path_map.txt
+
+
+PS C:\Users\grung\OneDrive\Desktop\Refinish Metal Editing Folder\REFINISH STEEL 3\Path Maps> cd ..
+PS C:\Users\grung\OneDrive\Desktop\Refinish Metal Editing Folder\REFINISH STEEL 3> dir
+
+
+    Directory: C:\Users\grung\OneDrive\Desktop\Refinish Metal Editing Folder\REFINISH STEEL 3
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-r---        2026-08-04  12:22 PM                active backup
+d-r---        2026-08-01   3:52 PM                arggc_injection_port
+d-r---        2026-07-31  10:54 AM                argmod aaco official patch
+d-r---        2026-07-31  10:57 AM                argmod cote official patch
+d-r---        2026-07-31  11:00 AM                argmod sandstone official patch
+d-r---        2026-08-04  11:53 PM                argmod_injection_port
+d-r---        2026-07-30   2:57 PM                argmyth_injection_port
+d-r---        2026-08-02   4:28 PM                making_concrete
+d-r---        2026-08-05  11:56 AM                making_fuel
+d-r---        2026-04-03  12:59 PM                making_metal
+d-r---        2026-04-05   9:06 PM                making_test
+d-r---        2026-07-27   8:03 PM                metal_library_injected
+d-r---        2026-04-01  12:15 PM                Notes
+d-r---        2026-04-06  12:50 PM                Path Maps
+d-r---        2026-08-04  11:38 PM                refinish_steel
+d-r---        2026-08-03   1:27 PM                text versions for gemini
+-a----        2026-07-28   4:38 PM           5861 ArgMOD_plain_english_guide.md
+-a----        2026-07-28   4:41 PM          68269 ArgMOD_production_chains.md
+-a----        2026-07-28   8:04 PM           9655 preflight.py
+-a----        2026-07-30  12:45 PM          18836 RM_engine_module_priority_changes.md
+-a----        2026-04-05   5:46 PM          14934 RM_Module_Design_Philosophy.md
+-a----        2026-04-05   5:49 PM          41282 RM_Module_Schema_Reference.md
+-a----        2026-04-05   7:29 PM          10537 RM_Module_Supply_Chain_Classes.md
+-a----        2026-04-05   5:51 PM           9911 RM_Module_TODO.md
+-a----        2026-04-08  12:47 PM          12437 RM_Native_Button_Injection.md
+-a----        2026-04-09   9:03 AM          14414 RM_Native_Item_Creation_Reference.md
+-a----        2026-07-19  11:55 AM           8922 TODO.txt
+
+
+PS C:\Users\grung\OneDrive\Desktop\Refinish Metal Editing Folder\REFINISH STEEL 3> cd notes
+PS C:\Users\grung\OneDrive\Desktop\Refinish Metal Editing Folder\REFINISH STEEL 3\notes> dir
+
+
+    Directory: C:\Users\grung\OneDrive\Desktop\Refinish Metal Editing Folder\REFINISH STEEL 3\notes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-r---        2026-04-02   6:09 PM                Object Path Maps
+d-r---        2026-04-01  12:57 PM                Utility Scripts
+-a----        2026-03-31   5:00 PM          31813 inorganic_path_map.txt
+-a----        2026-03-31   5:21 PM          37607 make_plaster_powder_reaction_map.txt
+-a----        2026-03-27  12:39 PM           5399 metal panel metal tooltip paths and notes.txt
+-a----        2026-03-31   6:59 PM          33401 metal_ore_map.txt
+-a----        2026-03-31   7:15 PM          87326 modded_steel_making_reaction_map.txt
+-a----        2026-03-31   5:13 PM          67657 reaction_path_map.txt
+
+
+PS C:\Users\grung\OneDrive\Desktop\Refinish Metal Editing Folder\REFINISH STEEL 3\notes> cd "object path maps"
+PS C:\Users\grung\OneDrive\Desktop\Refinish Metal Editing Folder\REFINISH STEEL 3\notes\object path maps> dir
+
+
+    Directory: C:\Users\grung\OneDrive\Desktop\Refinish Metal Editing Folder\REFINISH STEEL 3\notes\object path maps
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-04-02   6:09 PM           5414 descriptors_colors_object_map.txt
+-a----        2026-03-25  10:10 AM        5658598 entity_object_map.txt
+-a----        2026-03-23   2:46 PM           9530 inorganic_object_map.txt
+-a----        2026-04-02   5:55 PM          43442 itemdefs_object_map.txt
+-a----        2026-04-02   5:47 PM          17601 material_template_object_map.txt
+-a----        2026-04-02   5:50 PM         229085 plant_object_map.txt
+-a----        2026-03-22  12:53 PM          18023 reaction_object_map.txt
+-a----        2026-04-02   5:41 PM         208775 shortened_entity_object_map.txt
+
+
+PS C:\Users\grung\OneDrive\Desktop\Refinish Metal Editing Folder\REFINISH STEEL 3\notes\object path maps>
