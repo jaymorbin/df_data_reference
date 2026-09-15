@@ -1,0 +1,63 @@
+-- title paths, format: Name (ID)
+df.global.world.raws.inorganics.all[0].id = "IRON"
+df.global.world.raws.inorganics.all[0].material.state_name = [<string[]: 0x1ffb2e4dfd0>]
+    df.global.world.raws.inorganics.all[0].material.state_name.Solid = "bloom iron"
+
+-- value/color frame (SEC labels, PRI values, proper format proper names). 
+df.global.world.raws.inorganics.all[0].material.material_value = 4 -- SEC label, pri value
+df.global.world.raws.inorganics.all[0].material.state_color = [<int32_t[]: 0x1ffb2e4dfb4>]
+    df.global.world.raws.inorganics.all[0].material.state_color.Solid = 445 -- This colour needs to be identified by proper name in proper format
+    df.global.world.raws.descriptors.colors[0].id = "AMBER" -- I really don't want to be scanning and string matching in the ui over this
+    df.global.world.raws.descriptors.colors[0].name = "amber"
+
+
+df.global.world.raws.inorganics.all[0].material.heat = [<material.T_heat: 0x1ffb2e4df98>] -- these items could be formatted in a list frame with PRI values and with SEC labels. then I can just position this whole piece. 
+    df.global.world.raws.inorganics.all[0].material.heat.spec_heat = 450
+    df.global.world.raws.inorganics.all[0].material.heat.heatdam_point = 60001
+    df.global.world.raws.inorganics.all[0].material.heat.colddam_point = 60001
+    df.global.world.raws.inorganics.all[0].material.heat.ignite_point = 60001
+    df.global.world.raws.inorganics.all[0].material.heat.melting_point = 12768
+    df.global.world.raws.inorganics.all[0].material.heat.boiling_point = 15150
+    df.global.world.raws.inorganics.all[0].material.heat.mat_fixed_temp = 60001
+    df.global.world.raws.inorganics.all[0].material.solid_density = 7850
+    df.global.world.raws.inorganics.all[0].material.liquid_density = 6980
+    df.global.world.raws.inorganics.all[0].material.molar_mass = 55845
+
+    df.global.world.raws.inorganics.all[0].material.strength = [<material.T_strength: 0x1ffb2e4e150>]
+        df.global.world.raws.inorganics.all[0].material.strength.absorption = 0
+        df.global.world.raws.inorganics.all[0].material.strength.yield = [<int32_t[]: 0x1ffb2e4e154>] -- These get their own list frame, SEC labels PRI values
+            df.global.world.raws.inorganics.all[0].material.strength.yield.BENDING = 70000
+            df.global.world.raws.inorganics.all[0].material.strength.yield.SHEAR = 56000
+            df.global.world.raws.inorganics.all[0].material.strength.yield.TORSION = 70000
+            df.global.world.raws.inorganics.all[0].material.strength.yield.IMPACT = 245000
+            df.global.world.raws.inorganics.all[0].material.strength.yield.TENSILE = 70000
+            df.global.world.raws.inorganics.all[0].material.strength.yield.COMPRESSIVE = 245000
+        df.global.world.raws.inorganics.all[0].material.strength.fracture = [<int32_t[]: 0x1ffb2e4e16c>] -- These get their own list frame, SEC labels PRI values
+            df.global.world.raws.inorganics.all[0].material.strength.fracture.BENDING = 220000
+            df.global.world.raws.inorganics.all[0].material.strength.fracture.SHEAR = 176000
+            df.global.world.raws.inorganics.all[0].material.strength.fracture.TORSION = 220000
+            df.global.world.raws.inorganics.all[0].material.strength.fracture.IMPACT = 1320000
+            df.global.world.raws.inorganics.all[0].material.strength.fracture.TENSILE = 220000
+            df.global.world.raws.inorganics.all[0].material.strength.fracture.COMPRESSIVE = 1320000
+        df.global.world.raws.inorganics.all[0].material.strength.strain_at_yield = [<int32_t[]: 0x1ffb2e4e184>] -- These get their own list frame, SEC labels PRI values
+            df.global.world.raws.inorganics.all[0].material.strength.strain_at_yield.BENDING = 5000
+            df.global.world.raws.inorganics.all[0].material.strength.strain_at_yield.SHEAR = 15000
+            df.global.world.raws.inorganics.all[0].material.strength.strain_at_yield.TORSION = 5000
+            df.global.world.raws.inorganics.all[0].material.strength.strain_at_yield.IMPACT = 15000
+            df.global.world.raws.inorganics.all[0].material.strength.strain_at_yield.TENSILE = 5000
+            df.global.world.raws.inorganics.all[0].material.strength.strain_at_yield.COMPRESSIVE = 5000
+        df.global.world.raws.inorganics.all[0].material.strength.max_edge = 10000
+
+
+
+df.global.world.raws.inorganics.all[0].flags = [<BitArray<>: 0x1ffb2e4dda8>] -- All these flags can be in a comma list format, true items only, just use the tag (i.e. "LAVA, GENERATED"), list in PRI with a title in SEC, keep it all in a frame I can just position
+    df.global.world.raws.inorganics.all[0].flags.LAVA = false
+    df.global.world.raws.inorganics.all[0].flags.GENERATED = false
+    df.global.world.raws.inorganics.all[0].flags.CAN_OCCUR_ON_SURFACE = false
+    df.global.world.raws.inorganics.all[0].flags.SEDIMENTARY = false
+df.global.world.raws.inorganics.all[0].material.flags = [<BitArray<>: 0x1ffb2e4e1a8>]
+    df.global.world.raws.inorganics.all[0].material.flags.BONE = false
+    df.global.world.raws.inorganics.all[0].material.flags.MEAT = false
+    df.global.world.raws.inorganics.all[0].material.flags.EDIBLE_VERMIN = false
+    df.global.world.raws.inorganics.all[0].material.flags.EDIBLE_RAW = false
+    df.global.world.raws.inorganics.all[0].material.flags.EDIBLE_COOKED = false

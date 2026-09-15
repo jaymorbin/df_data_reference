@@ -1,0 +1,75 @@
+FIELDS ON item_corpsepiecest, from the struct definition
+  add_block_parry_deflect  add_hf_kill  add_non_hf_kill  add_strike  
+  addContaminant  addDefaultThreadImprovement  addImprovement  
+  addImprovementFromJob  addStackSize  addThreadImprovement  addWear  
+  adjustTemperature  age  ageItem  appearance  assignQuality  
+  assignQualityRoll  base_uniform_score  becomePaste  becomePressed  
+  birth_time  birth_time_bias  birth_year  birth_year_bias  blood_count  
+  body  boiling_point  calcBaseUniformScore  calculateWeight  
+  calcUniformScore  canHaveImageSewnOnto  canSewImage  caste  categorize  
+  checkHeatColdDamage  checkMeltBoil  checkTemperatureDamage  
+  checkWearDestroy  clearLastTempUpdateTS  colddam_point  
+  containsPlaster  contaminants  contaminateWound  copyImprovementsFrom  
+  corpse_flags  coverWithContaminant  curse_time  curse_year  death_time  
+  death_year  detachStockpileAssignment  drawSelf  evaluate_corpse_flags  
+  find  fitsCivRequestTab  fixed_temp  flags  flags2  from_custom_body  
+  general_refs  get_art_graphics_id_ptr  get_art_graphics_type_ptr  
+  get_attack_clothing_size  get_production_zone_id  get_vector  
+  getAbsorption  getActualMaterial  getActualMaterialIndex  getAmmoType  
+  getBaseWeight  getBlockChance  getBodyInfo  getBoilingPoint  getCaste  
+  getColddamPoint  getColorAndShape  getColorOverride  
+  getColorWhetherDyedOrNot  getCorpseInfo  getCorpseSize  
+  getCritterAirdrownTimer  getCurrencyValue  getDimension  getDyeAmount  
+  getEffectiveArmorLevel  getFaceUp  getFixedTemp  getGemShape  
+  getGloveFlags  getGloveHandedness  getGrowthPrint  getHeatdamPoint  
+  getHistoryInfo  getIgnitePoint  getImageCivSite  getImageRef  
+  getImprovementQuality  getImprovementsValue  getItemBasicName  
+  getItemDescription  getItemDescriptionPrefix  getItemShapeDesc  
+  getMagic  getMaker  getMakerRace  getMaterial  getMaterialIndex  
+  getMaterialSizeForMelting  getMeleeSkill  getMeltingPoint  
+  getOverallQuality  getParryChance  getPlantID  getProjectileSize  
+  getQuality  getRace  getRangedSkill  getRotTimer  getSharpness  
+  getSlabEngravingType  getSolidDensity  getSpecHeat  getStackSize  
+  getStockpile  getStockpile2  getStorageInfo  getSubtype  
+  getTemperature  getThreadDyeValue  getTotalDimension  getType  
+  getVehicleID  getVolume  getWeaponAttacks  getWeaponSize  getWear  
+  getWeightShiftBits  has_procedural_item_graphics  hasImprovements  
+  hasInvertedTile  hasSpecificImprovements  hasToolUse  hasWriting  
+  heatdam_point  hist_figure_id  hist_figure_id2  history_info  id  
+  ignite_point  incrementCritterAirdrownTimer  incrementRotTimer  
+  incWearTimer  instantRot  is_structurally_elastic  is_woven  isActual  
+  isAmmoClass  isAnimal  isAnimalProduct  isArmor  isArmorNotClothing  
+  isAssignedToStockpile  isAssignedToThisStockpile  isAutoClean  
+  isBuildMat  isClothing  isCollected  isConstructed  isCrafted  
+  isCritter  isCrystalGlassable  isDamagedByHeat  isDye  isDyeable  
+  isDyeColor  isDyed  isEdibleBonecarn  isEdibleCarnivore  isEdiblePlant  
+  isEdibleRaw  isEdibleVermin  isExtractBearingFish  
+  isExtractBearingVermin  isFoodStorage  isFurniture  isGemShapeable  
+  isGlazed  isImprovable  isImproved  isLiquid  isLiquidPowder  
+  isLiveAnimal  isLyeBearing  isMatchingAmmoItem  isMetalOre  isMilkable  
+  isMillable  isNotDyed  isNotHeld  isPlaster  isPressed  
+  isProcessableBarrel  isProcessableThread  isProcessableVial  
+  isProcessableVialAtStill  isRangedWeapon  isSand  isSandBearing  
+  isScrew  isSharpStone  isSimilarToItem  isSpike  isStoneShapeable  
+  isStrappable  isTameableVermin  isTemperatureSafe  isTotemable  
+  isTrackCart  isWeapon  isWet  isWheelbarrow  largest_tissue  
+  largest_unrottable_tissue  listNotableKills  magic  material_amount  
+  materialRots  melting_point  moveToGround  needTwoHandedWield  
+  normal_caste  normal_race  notifyCreatedMasterwork  
+  notifyLostMasterwork  pos  production_zone_id  propagateUnitRefs  race  
+  randomizeThreadImprovement  read_file  removeContaminant  
+  removeContaminantByIdx  removeStockpileAssignment  rot_timer  
+  set_placement_information  setCritterAirdrownTimer  setDimension  
+  setDisplayColor  setGemShape  setGloveHandedness  setGrowthPrint  
+  setImageCivSite  setMaker  setMakerRace  setMaterial  setMaterialIndex  
+  setQuality  setRandSubtype  setRotTimer  setSeedsPlantSkillLevel  
+  setSharpness  setStackSize  setSubtype  setTemperature  
+  setTemperatureFromMap  setTemperatureFromMapTile  setWear  sex  
+  size_modifier  spec_heat  specific_refs  splitStack  stack_size  
+  stockpile_countdown  stockpile_delay  stored_fat  subtractDimension  
+  temp_updated_frame  temperature  tradeItemActualContaminants  
+  tradeItemContaminants  tradeUnitContaminants  uncategorize  
+  undead_unit_id  unit_id  unit_id2  updateContaminants  
+  updateFromWeather  updateTemperature  updateTempFromMap  walkable_id  
+  wantsClothImprovement  wantsThreadImprovement  wear  wear_timer  
+  weight  world_data_id  world_data_subid  write_file  

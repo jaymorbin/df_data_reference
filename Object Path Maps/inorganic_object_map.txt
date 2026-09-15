@@ -1,0 +1,345 @@
+df.global.world.raws.inorganics.all[0] = <inorganic_raw: 0x1548d855fb10>
+	.id = "IRON"
+	.str = <vector<string*>[43]: 0x1548d855fd10>
+		.str[0] = <string: 0x1557b97f620>
+			.str[0].value = "[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]"
+			-- etc. each index represents a raw entry for this object
+			-- this list for iron has 43 entries, 0-42, iterating the entire raw sheet
+	.flags = <BitArray<>: 0x1548d855fe8>
+		-- entries below are boolean
+		.LAVA = false
+		.GENERATED = false
+		.CAN_OCCUR_ON_SURFACE = false
+		.SEDIMENTARY = false
+		.SEDIMENTARY_OCEAN_SHALLOW = false
+		.IGNEOUS_EXTRUSIVE = false
+		.METAMORPHIC = false
+		.DEEP_SURFACE = false
+		.METAL_ORE = false
+		.AQUIFER = false
+		.SOIL_ANY = false
+		.SOIL_OCEAN = false
+		.SOIL_SAND = false
+		.SEDIMENTARY_OCEAN_DEEP = false
+		.THREAD_METAL = false
+		.SPECIAL = false
+		.SOIL = false
+		.DEEP_SPECIAL = false
+		.DIVINE = false
+		.MYTHICAL = false
+		.MYTHICAL_REMNANT = false
+		.MYTHICAL_SUBSTANCE = false
+		.UNUSED_03_08 = false
+		.UNUSED_04_01 = false
+		.WAFERS = false
+		-- indices 26-31 are unlabelled and = false
+	.source_hfid = -1 (ref-target: historical_figure)
+	.source_enid = -1 (ref-target: historical_entity)
+	.metal_ore = <inorganic_raw.T_metal_ore: 0x1548d856000>
+		.str = <vector<string*>[0]: 0x1548d856000>
+			-- empty
+		.mat_index = <vector<int16_t>[0]: 0x1548d856018>
+			-- empty
+		.probability = <vector<int16_t>[0]: 0x1548d856030>
+			-- empty
+	.thread_metal <inorganic_raw.T_thread_metal: 0x1548d856048>
+		.str = <vector<string*>[0]: 0x1548d856048>
+			-- empty
+		.mat_index = <vector<int16_t>[0]: 0x1548d856060>
+			-- empty
+		.probability = <vector<int16_t>[0]: 0x1548d856078>
+			-- empty
+	.economic_uses = <vector<int32_t>[2]: 0x1548d856090>
+		[0] = 151
+		[1] = 152
+	.environment_spec = <inorganic_raw.T_environment_spec: 0x1548d8560a8>
+		.str = <vector<string*>[0]: 0x1548d8560a8>
+			-- empty
+		.mat_index = <vector<int16_t>[0]: 0x1548d8560c0>
+			-- empty
+		.inclusion_type = <vector<inclusion_type>[0]: 0x1548d8560d8>
+			-- empty
+		.probability = <vector<int8_t>[0]: 0x1548d8560f0>
+			-- empty
+	.environment = <inorganic_raw.T_environment: 0x1548d856108>
+		.location = <vector<environment_type[0]: 0x1548d856108>
+			-- empty
+		.type = <vector<int8_t>[0]: 0x1548d856138>
+			-- empty
+		.probability = <vector<int8_t>[0]: 0x1548d856138>
+			-- empty
+	.times_used_land = 0
+	.times_used_ocean = 0
+	.material = <material: 0x1548d856158>
+		.id -- empty
+		.gem_name1 -- empty
+		.gem_name2 -- empty
+		.stone_name -- empty
+		.heat = <material.T_heat: 0x1548d8561d8>
+			.spec_heat = 450
+			.heatdam_point = 60001
+			.colddam_point = 60001
+			.ignite_point = 60001
+			.melting_point = 12768
+			.boiling_point = 15150
+			.mat_fixed_temp = 60001
+		.solid_density = 7850
+		.liquid_density = 6980
+		.molar_mass = 55845
+		.state_color = <int32_t[]: 0x1548d8561f4>
+			.Solid = 49
+			.Liquid = 87
+			.Gas = 87
+			.Powder = 49
+			.Paste = 49
+			.Pressed = 49
+		.state_name = <string[]: 0x1548d856210>
+			.Solid = "iron"
+			.Liquid = "molten iron"
+			.Gas = "boiling iron"
+			.Powder = "iron"
+			.Paste = "iron"
+			.Pressed = "iron"
+		.state_adj = <string[]: 0x1548d8562d10>
+			.Solid = "iron"
+			.Liquid = "molten iron"
+			.Gas = "boiling iron"
+			.Powder = "iron"
+			.Paste = "iron"
+			.Pressed = "iron"
+		.strength = <material.T_strength: 0x1548d856390>
+			.absorption = 0
+			.yield = <int32_t[]: 0x1548d856394>
+				.BENDING = 155000
+				.SHEAR = 155000
+				.TORSION = 155000
+				.IMPACT = 542500
+				.TENSILE = 155000
+				.COMPRESSIVE = 542500
+			.fracture = <int32_t[]: 0x1548d8563ac>
+				.BENDING = 310000
+				.SHEAR = 310000
+				.TORSION = 310000
+				.IMPACT = 1085000
+				.TENSILE = 310000
+				.COMPRESSIVE = 1085000
+			.strain_at_yield = <int32_t[]: 0x1548d8563c4>
+				.BENDING = 73
+				.SHEAR = 189
+				.TORSION = 189
+				.IMPACT = 319
+				.TENSILE = 73
+				.COMPRESSIVE = 319
+			.max_edge = 10000
+		.material_value = 10
+		.flags = <BitArray<>: 0x1548d8563e8>
+			.BONE = false
+			.MEAT = false
+			.EDIBLE_VERMIN = false
+			.EDIBLE_RAW = false
+			.EDIBLE_COOKED = false
+			.ALCOHOL = false
+			.ITEMS_METAL = true
+			.ITEMS_BARRED = true
+			.ITEMS_SCALED = true
+			.ITEMS_LEATHER = false
+			.ITEMS_SOFT = false
+			.ITEMS_HARD = true
+			.IMPLIES_ANIMAL_KILL = false
+			.ALCOHOL_PLANT = false
+			.ALCOHOL_CREATURE = false
+			.CHEESE_PLANT = false
+			.CHEESE_CREATURE = false
+			.POWDER_MISC_PLANT = false
+			.POWDER_MISC_CREATURE = false
+			.STOCKPILE_GLOB = false
+			.LIQUID_MISC_PLANT = false
+			.LIQUID_MISC_CREATURE = false
+			.LIQUID_MISC_OTHER = false
+			.WOOD = false
+			.THREAD_PLANT = false
+			.TOOTH = false
+			.HORN = false
+			.PEARL = false
+			.SHELL = false
+			.LEATHER = false
+			.SILK = false
+			.SOAP = false
+			.ROTS = false
+			.IS_DYE = false
+			.POWDER_MISC = false
+			.LIQUID_MISC = false
+			.STRUCTURAL_PLANT_MAT = false
+			.SEED_MAT = false
+			.STOCKPILE_PLANT_GROWTH = false
+			.CHEESE = false
+			.ENTERS_BLOOD = false
+			.BLOOD_MAP_DESCRIPTOR = false
+			.ICHOR_MAP_DESCRIPTOR = false
+			.GOO_MAP_DESCRIPTOR = false
+			.SLIME_MAP_DESCRIPTOR = false
+			.PUS_MAP_DESCRIPTOR = false
+			.GENERATES_MIASMA = false
+			.IS_METAL = true
+			.IS_GEM = false
+			.IS_GLASS = false
+			.CRYSTAL_GLASSABLE = false
+			.ITEMS_WEAPON = true
+			.ITEMS_WEAPON_RANGED = true
+			.ITEMS_ANVIL = true
+			.ITEMS_AMMO = true
+			.ITEMS_DIGGER = true
+			.ITEMS_ARMOR = true
+			.ITEMS_DELICATE = false
+			.ITEMS_SIEGE_ENGINE = false
+			.ITEMS_QUERN = false
+			.IS_STONE = false
+			.UNDIGGABLE = false
+			.YARN = false
+			.STOCKPILE_GLOB_PASTE = false
+			.STOCKPILE_GLOB_PRESSED = false
+			.DISPLAY_UNGLAZED = false
+			.DO_NOT_CLEAN_GLOB = false
+			.NO_STONE_STOCKPILE = false
+			.STOCKPILE_THREAD_METAL = false
+			.SWEAT_MAP_DESCRIPTOR = false
+			.TEARS_MAP_DESCRIPTOR = false
+			.SPIT_MAP_DESCRIPTOR = false
+			.EVAPORATES = false
+			.STOCKPILE_PLANT = false
+			.IS_CERAMIC = false
+			.CARTILAGE = false
+			.FEATHER = false
+			.SCALE = false
+			.HAIR = false
+			.NERVOUS_TISSUE = false
+			.HOOF = false
+			.CHITIN = false
+			.ANTLER = false
+			-- indices 83-86 unlabelled and = false
+		.extract_storage = 17 (BARREL)
+		.butcher_special_type = -1 (NONE)
+		.butcher_special_subtype = -1
+		.meat_name = <string[]: 0x1548d856400>
+			[0] -- empty
+			[1] -- empty
+			[2] -- empty
+		.meat_organ = -1 (NONE)
+		.block_name = <string[]: 0x1548d856468>
+			[0] -- empty
+			[1] -- empty
+		.reaction_product = <material.T_reaction_product: 0x1548d8564a8>
+			.id = <vector<string*>[0]: 0x1548d8564a8>
+				-- empty
+			.item_type = <vector<item_type>[0]: 0x1548d8564c0>
+				-- empty
+			.item_subtype = <vector<int16_t>[0]: 0x1548d8564d8>
+				-- empty
+			.material = <material_vec_ref: 0x1548d8564f0>
+				.mat_type = <vector<int16_t>[0]: 0x1548d8564f0>
+					-- empty
+				.mat_index = <vector<int32_t>[0]: 0x1548d856508>
+					-- empty
+			.str = <vector<string*>[]: 0x1548d856520>
+				[0] = <vector<string*>[0]: 0x1548d856520>
+					-- empty
+				[1] = <vector<string*>[0]: 0x1548d856538>
+					-- empty
+				[2] = <vector<string*>[0]: 0x1548d856550>
+					-- empty
+				[3] = <vector<string*>[0]: 0x1548d856568>
+					-- empty
+				[4] = <vector<string*>[0]: 0x1548d856580>
+					-- empty
+		.hardens_with_water = <material.T_hardens_with_water: 0x1548d856598>
+			.mat_type = -1 (ref-target: material)
+			.mat_index = -1
+			.str = <string[]: 0x1548d8565a0>
+				[0] -- empty
+				[1] -- empty
+				[2] -- empty
+		.reaction_class = <vector<string*>[0]: 0x1548d856600>
+			-- empty
+		.tile = 219
+		.basic_color = <int16_t[]: 0x1548d85661a>
+			[0] = 0
+			[1] = 1
+		.build_color = <int16_t[]: 0x1548d85661e>
+			[0] = 0
+			[1] = 7
+			[2] = 1
+		.tile_color = <int16_t[]: 0x1548d856624>
+			[0] = 0
+			[1] = 7
+			[2] = 1
+		.item_symbol = 7
+		.mat_rgb = <float[]: 0x1548d85662c>
+			[0] = 0.50196081399918
+			[1] = 0.50196081399918
+			[2] = 0.50196081399918
+		.powder_dye = -1
+		.temp_diet_info = -1 (NONE)
+		.syndrome = <creature_interactionst: 0x1548d856640>
+			.syndrome = <vector<syndrome*>[0]: 0x1548d856640>
+				-- empty
+		.soap_level = 0
+		.sphere = <vector<sphere_type>[0]: 0x1548d856660>
+			-- empty
+		.prefix -- empty
+		.food_mat_index = <int32_t[]: 0x1548d856698>
+			.Meat = -1
+			.Fish = -1
+			.UnpreparedFish = -1
+			.Eggs = -1
+			.Plants = -1
+			.PlantDrink = -1
+			.CreatureDrink = -1
+			.PlantCheese = -1
+			.CreatureCheese = -1
+			.Seed = -1
+			.PlantGrowth = -1
+			.PlantPowder = -1
+			.CreaturePowder = -1
+			.Glob = -1
+			.PlantLiquid = -1
+			.CreatureLiquid = -1
+			.MiscLiquid = -1
+			.Leather = -1
+			.Silk = -1
+			.PlantFiber = -1
+			.Bone = -1
+			.Shell = -1
+			.Wood = -1
+			.Horn = -1
+			.Pearl = -1
+			.Tooth = -1
+			.EdibleCheese = -1
+			.AnyDrink = -1
+			.EdiblePlant = -1
+			.CookableLiquid = -1
+			.CookablePowder = -1
+			.CookableSeed = -1
+			.CookablePlantGrowth = -1
+			.Paste = -1
+			.Pressed = -1
+			.Yarn = -1
+			.MetalThread = -1
+			.Paper = -1
+			.Parchment = -1
+		.powder_dye_str -- empty
+		.state_color_str = <string[]: 0x1548d856758>
+			.Solid -- empty
+			.Liquid -- empty
+			.Gas -- empty
+			.Powder -- empty
+			.Paste -- empty
+			.Pressed -- empty
+		.wood_texpos = 0
+		.boulder_texpos1 = 0
+		.boulder_texpos2 = 0
+		.rough_texpos1 = 0
+		.rough_texpos2 = 0
+		.bar_texpos = 0
+		.cheese_texpos1 = 0
+		.cheese_texpos2 = 0
+		.texflag = 0

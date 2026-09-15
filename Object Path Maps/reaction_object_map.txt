@@ -1,0 +1,288 @@
+
+df.global.world.raws.reactions.reactions[138] = <reaction: 0x154feeb4c10>
+
+	df.global.world.raws.reactions.reactions[138].code = "BRASS_MAKING"
+	df.global.world.raws.reactions.reactions[138].name = "make brass bars (use ore)"
+
+	-- bit array
+	*****df.global.world.raws.reactions.reactions[138].flags = <BitArray<>: 0x154feeb4c50>*****
+
+		-- bool
+		df.global.world.raws.reactions.reactions[138].flags.FUEL
+		df.global.world.raws.reactions.reactions[138].flags.AUTOMATIC
+		df.global.world.raws.reactions.reactions[138].flags.ADVENTURE_MODE_ENABLED
+		df.global.world.raws.reactions.reactions[138].flags.GENERATED
+		df.global.world.raws.reactions.reactions[138].flags.FORTRESS_MODE_ENABLED
+		df.global.world.raws.reactions.reactions[138].flags.WORLDGEN_ENABLED
+		-- flags indices 6-7 unlabelled
+
+	-- vector
+	*****df.global.world.raws.reactions.reactions[138].reagents = <vector<reaction_reagent*[2]: 0x0x154feeb4c60>******
+
+		df.global.world.raws.reactions.reactions[138].reagents[0] = <reaction_reagent_itemst: 0x15489c2d60>
+
+			df.global.world.raws.reactions.reactions[138].reagents[0].code = "A"
+			df.global.world.raws.reactions.reactions[138].reagents[0].quantity = 1
+
+			-- no idea what type of data this is
+			df.global.world.raws.reactions.reactions[138].reagents[0].flags = <reaction_reagent_flags: 0x154893c2d8c>
+
+				-- bool
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags.PRESERVE_REAGENT
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags.IN_CONTAINER
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags.DOES_NOT_DETERMINE_PRODUCT_AMOUNT
+				-- flags indices 3-31 unlabelled
+
+			df.global.world.raws.reactions.reactions[138].reagents[0].item_type = "4 (BOULDER)"
+			df.global.world.raws.reactions.reactions[138].reagents[0].item_subtype = -1
+			df.global.world.raws.reactions.reactions[138].reagents[0].mat_type = "-1 (ref-target: material)"
+			df.global.world.raws.reactions.reactions[138].reagents[0].mat_index = -1
+			df.global.world.raws.reactions.reactions[138].reagents[0].reaction_class
+			df.global.world.raws.reactions.reactions[138].reagents[0].has_material_reaction_product
+
+			df.global.world.raws.reactions.reactions[138].reagents[0].flags1 = <job_item_flags1: 0x154893c2dd8>
+
+				-- bool
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.improvable
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.butcherable
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.millable
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.allow_buryable
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.unrotten
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.undisturbed
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.collected
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.sharpenable
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.murdered
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.UNUSED_1_10
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.empty
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.processable
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.UNUSED_1_13
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.cookable
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.extract_bearing_plant
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.extract_bearing_fish
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.extract_bearing_vermin
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.processable_to_vial
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.UNUSED_1_19
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.processable_to_barrel
+				****df.global.world.raws.reactions.reactions[138].reagents[0].flags1.solid****
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.tameable_vermin
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.nearby
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.sand_bearing
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.glass
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.milk
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.milkable
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.finished_goods
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.ammo
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.furniture
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.not_bin
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags1.lye_bearing
+
+			df.global.world.raws.reactions.reactions[138].reagents[0].flags2 = <job_item_flags2: 0x154893c2ddc>
+
+				-- bool
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.dye
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.dyeable
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.dyed
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.sewn_imageless
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.glass_making
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.screw
+				***df.global.world.raws.reactions.reactions[138].reagents[0].flags2.building_material***
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.fire_safe
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.magma_safe
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.deep_material
+				***df.global.world.raws.reactions.reactions[138].reagents[0].flags2.melt_designated***
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.non_economic
+				****df.global.world.raws.reactions.reactions[138].reagents[0].flags2.allow_melt_dump****
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.allow_artifact
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.plant
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.silk
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.leather
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.bone
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.shell
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.totemable
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.horn
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.pearl
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.plaster_containing
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.UNUSED_24
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.soap
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.body_part
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.ivory_tooth
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.lye_milk_free
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.blunt
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.unengraved
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.hair_wool
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags2.yarn
+
+			df.global.world.raws.reactions.reactions[138].reagents[0].flags3 = <job_item_flags3: 0x154893c2de0>
+
+				-- bool
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.unimproved
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.any_raw_material
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.non_absorbent
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.non_pressed
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.allow_liquid_powder
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.any_craft
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.hard
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.food_storage
+				****df.global.world.raws.reactions.reactions[138].reagents[0].flags3.metal****
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.sand
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.can_use_location_reserved
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.written_on
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.edged
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.on_ground
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.divine
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.crafted_artifact
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.wood
+				***df.global.world.raws.reactions.reactions[138].reagents[0].flags3.stone***
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.non_artifact
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.woven
+				***df.global.world.raws.reactions.reactions[138].reagents[0].flags3.gem***
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.empty_or_water
+				df.global.world.raws.reactions.reactions[138].reagents[0].flags3.grown_not_crafted
+				-- indices 23-31 unlabelled
+
+			df.global.world.raws.reactions.reactions[138].reagents[0].flags4 = 0
+			df.global.world.raws.reactions.reactions[138].reagents[0].flags5 = 0
+
+			*******df.global.world.raws.reactions.reactions[138].reagents[0].metal_ore = "5 (ref-target: inorganic_raw)"*******
+			df.global.world.raws.reactions.reactions[138].reagents[0].min_dimension
+
+			*****df.global.world.raws.reactions.reactions[138].reagents[0].contains = <vector<int32_t>[0]: 0x154893c2df8>****
+
+			df.global.world.raws.reactions.reactions[138].reagents[0].has_tool_use = "-1 (NONE)"
+			df.global.world.raws.reactions.reactions[138].reagents[0].dye_color = "-1 (ref-target: descriptor_color)"
+
+			df.global.world.raws.reactions.reactions[138].reagents[0].item_str = <string[]: 0x154893c2e18>
+
+				df.global.world.raws.reactions.reactions[138].reagents[0].item_str[0]
+				df.global.world.raws.reactions.reactions[138].reagents[0].item_str[1]
+
+			df.global.world.raws.reactions.reactions[138].reagents[0].material_str = <string[]: 0x154893c2e58>
+
+				df.global.world.raws.reactions.reactions[138].reagents[0].material_str[0]
+				df.global.world.raws.reactions.reactions[138].reagents[0].material_str[1]
+				df.global.world.raws.reactions.reactions[138].reagents[0].material_str[2]
+
+			df.global.world.raws.reactions.reactions[138].reagents[0].metal_ore_str
+
+			*****df.global.world.raws.reactions.reactions[138].reagents[0].contains_str = <vector<string*>[0]: 0x154893c2ed8>****
+
+		****df.global.world.raws.reactions.reactions[138].reagents[1] = <reaction_reagent_itemst: 0x154893c52c0>****
+
+			-- same paths, no further reagents in this reaction beyond 0 and 1
+
+		*****df.global.world.raws.reactions.reactions[138].products = <vector<reaction_reagent*>[2]: 0x154feeb4c78>*****
+
+				df.global.world.raws.reactions.reactions[138].products[0].product_token
+				df.global.world.raws.reactions.reactions[138].products[0].product_to_container
+				****df.global.world.raws.reactions.reactions[138].products[0].item_type = "0 (BAR)"****
+				df.global.world.raws.reactions.reactions[138].products[0].item.subtype = -1
+				df.global.world.raws.reactions.reactions[138].products[0].mat_type = "0 (ref-target: material)"
+				df.global.world.raws.reactions.reactions[138].products[0].mat_index = 7
+				df.global.world.raws.reactions.reactions[138].products[0].probability = 100
+				df.global.world.raws.reactions.reactions[138].products[0].count = 8
+				df.global.world.raws.reactions.reactions[138].products[0].product_dimension = 150
+
+				-- bit array
+				df.global.world.raws.reactions.reactions[138].products[0].flags = <BitArray<>: 0x154893d2180>
+
+					-- bool
+					df.global.world.raws.reactions.reactions[138].products[0].flags.GET_MATERIAL_SAME
+					df.global.world.raws.reactions.reactions[138].products[0].flags.GET_MATERIAL_PRODUCT
+					df.global.world.raws.reactions.reactions[138].products[0].flags.FORCE_EDGE
+					df.global.world.raws.reactions.reactions[138].products[0].flags.PASTE
+					df.global.world.raws.reactions.reactions[138].products[0].flags.PRESSED
+					df.global.world.raws.reactions.reactions[138].products[0].flags.CRAFTS
+					df.global.world.raws.reactions.reactions[138].products[0].flags.USE_FULL_REACTION_PRODUCT_CLASS
+					df.global.world.raws.reactions.reactions[138].products[0].flags.USE_REAGENT_ITEM
+					df.global.world.raws.reactions.reactions[138].products[0].flags.TRANSFER_ARTIFACT_STATUS
+					-- indices 9-15 unlabelled
+
+				df.global.world.raws.reactions.reactions[138].products[0].get_material = <reaction_product_itemst.T_get_material: 0x154893d2190>
+
+					df.global.world.raws.reactions.reactions[138].products[0].get_material.reagent_code
+					df.global.world.raws.reactions.reactions[138].products[0].get_material.product_code
+
+				df.global.world.raws.reactions.reactions[138].products[0].item_str = <string[]: 0x154893d21d0>
+
+					df.global.world.raws.reactions.reactions[138].products[0].item_str[0]
+					df.global.world.raws.reactions.reactions[138].products[0].item_str[1]
+
+				df.global.world.raws.reactions.reactions[138].products[0].material_str = <string[]: 0x154893d2210>
+
+					df.global.world.raws.reactions.reactions[138].products[0].material_str[0]
+					df.global.world.raws.reactions.reactions[138].products[0].material_str[1]
+					df.global.world.raws.reactions.reactions[138].products[0].material_str[2]
+
+			df.global.world.raws.reactions.reactions[138].skill = "24 (SMELT)"
+			df.global.world.raws.reactions.reactions[138].max_multiplier = -1
+
+			df.global.world.raws.reactions.reactions[138].building = <reaction.T_building: 0x154feeb4c98>
+
+				df.global.world.raws.reactions.reactions[138].building.token = <vector<string*>[0]: 0x154feeb4c98>
+				df.global.world.raws.reactions.reactions[138].building.temp_job_key = <vector<interface_key>[0]: 0x154feeb4cc8>
+
+				df.global.world.raws.reactions.reactions[138].building.type = <vector<building_type>[2]: 0x154feeb4cc8>
+
+					df.global.world.raws.reactions.reactions[138].building.type[0] = "5 (FURNACE)"
+					df.global.world.raws.reactions.reactions[138].building.type[1] = "5 (FURNACE)"
+
+				df.global.world.raws.reactions.reactions[138].building.subtype = <vector<int32_t>[2]: 0x154feeb4ce0>
+
+					df.global.world.raws.reactions.reactions[138].building.subtype[0] = 1
+					df.global.world.raws.reactions.reactions[138].building.subtype[1] = 4
+
+				df.global.world.raws.reactions.reactions[138].building.custom = <vector<int32_t>[2]: 0x154feeb4cf8>
+
+					df.global.world.raws.reactions.reactions[138].building.custom[0] = -1
+					df.global.world.raws.reactions.reactions[138].building.custom[1] = -1
+
+				df.global.world.raws.reactions.reactions[138].building.hotkey = <vector<int32_t>[2]: 0x154feeb4d10>
+
+					df.global.world.raws.reactions.reactions[138].building.hotkey[0] = "0 (NONE)"
+					df.global.world.raws.reactions.reactions[138].building.hotkey[1] = "0 (NONE)"
+
+			df.global.world.raws.reactions.reactions[138].index = 138
+			df.global.world.raws.reactions.reactions[138].source_hfid = "-1 (ref-target: historical_figure)"
+			df.global.world.raws.reactions.reactions[138].source_efid = "-1 (ref-target: historical_entity)"
+
+			df.global.world.raws.reactions.reactions[138].raw_strings = <vector<string*>[8]: 0x154feeb4d38>
+
+				df.global.world.raws.reactions.reactions[138].raw_strings[0] = <string: 0x154fe801210>
+
+					df.global.world.raws.reactions.reactions[138].raw_strings[0].value = "[NAME:make brass bars (use ore)]"
+
+				df.global.world.raws.reactions.reactions[138].raw_strings[1] = <string: 0x154fe801150>
+
+					df.global.world.raws.reactions.reactions[138].raw_strings[1].value = "[BUILDING:SMELTER:NONE]"
+
+				df.global.world.raws.reactions.reactions[138].raw_strings[2] = <string: 0x154fe801270>
+
+					df.global.world.raws.reactions.reactions[138].raw_strings[2].value = "[REAGENT:A:1:METAL_ORE:ZINC]"
+
+				df.global.world.raws.reactions.reactions[138].raw_strings[3] = <string: 0x154fe801480>
+
+					df.global.world.raws.reactions.reactions[138].raw_strings[2].value = "[REAGENT:B:1:METAL_ORE:COPPER]"
+
+				df.global.world.raws.reactions.reactions[138].raw_strings[4] = <string: 0x154fe8014e0>
+
+					df.global.world.raws.reactions.reactions[138].raw_strings[4].value = "[PRODUCT:100:8:BAR:NO_SUBTYPE:METAL:BRASS]"
+
+				df.global.world.raws.reactions.reactions[138].raw_strings[5] = <string: 0x154fe8015d0>
+
+					df.global.world.raws.reactions.reactions[138].raw_strings[5].value = "[PRODUCT_DIMENSION:150]"
+
+				df.global.world.raws.reactions.reactions[138].raw_strings[6] = <string: 0x154fe801570>
+
+					df.global.world.raws.reactions.reactions[138].raw_strings[6].value = "[FUEL]"
+
+				df.global.world.raws.reactions.reactions[138].raw_strings[7] = <string: 0x154fee801720>
+
+					df.global.world.raws.reactions.reactions[138].raw_strings[7].value = "[SKILL:SMELT]"
+
+				df.global.world.raws.reactions.reactions[138].category
+				df.global.world.raws.reactions.reactions[138].descriptions = <vector<reaction_description*>[0]: 0x154feeb4d70>
+				df.global.world.raws.reactions.reactions[138].rand_range = 11
+				df.global.world.raws.reactions.reactions[138].skill_mult = 5
+				df.global.world.raws.reactions.reactions[138].attr_gain = 10
+				df.global.world.raws.reactions.reactions[138].exp_gain = 30
+				
